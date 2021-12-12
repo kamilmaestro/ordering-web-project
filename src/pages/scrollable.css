@@ -1,0 +1,13 @@
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color:#babac0;
+  border-radius: 20px;
+}
+
+.scrollbar {
+  height: 87vh;
+  overflow-y: scroll
+}
