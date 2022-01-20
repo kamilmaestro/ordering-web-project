@@ -1,0 +1,13 @@
+.content {
+  border-radius: 45px;
+  background-color: #c62828;
+  color: white;
+  border: none;
+  padding: 15px 80px;
+  cursor: pointer;
+  font-size: 40px;
+  letter-spacing: 2px;
+  outline: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}

@@ -1,0 +1,14 @@
+.image_uploader_centered {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image_uploader_image {
+  height: auto;
+  max-height: 400px;
+  width: auto;
+  max-width: 550px;
+}

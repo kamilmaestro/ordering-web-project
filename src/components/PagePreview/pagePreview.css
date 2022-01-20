@@ -1,0 +1,8 @@
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.title_accent {
+  color: #c62828;
+}
