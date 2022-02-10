@@ -8,10 +8,23 @@ import { SIGN_IN_PAGE_URL } from '../../utils/urlProvider';
 
 export const HomePage = () => {
 
+	const history = useHistory();
+
+	const goToLoginPage = () => {
+		history.push(SIGN_IN_PAGE_URL);
+	}
 
 	return (
 		<div>
-			hello
+			<HomeHeader color='transparent' onAccountIconClick={goToLoginPage} />
+			<div className='container'>
+				<div className='left'>
+					<PagePreview onButtonClick={goToLoginPage} />
+				</div>
+				<div className='right'>
+					<img src={circle} alt='dish' className='image' />
+				</div>
+			</div>
 		</div>
 	);
 };
